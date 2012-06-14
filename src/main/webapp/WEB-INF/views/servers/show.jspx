@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_at_htlv_serveradministration_domain_Server" object="${server}" path="/servers" z="RnduJWTDRaa+pa3HboPBq3WbwO4=">
+        <field:display field="hostname" id="s_at_htlv_serveradministration_domain_Server_hostname" object="${server}" z="fHn67sEbdN89rVmyvFWdROP3690="/>
+        <field:display field="producer" id="s_at_htlv_serveradministration_domain_Server_producer" object="${server}" z="yWnBRP4aCJO8XSF7eXrQ+rfOBtc="/>
+        <field:display field="serialnumber" id="s_at_htlv_serveradministration_domain_Server_serialnumber" object="${server}" z="8aV+HY3+rbL7/lxrayUoKxxo8ZQ="/>
+        <field:display field="model" id="s_at_htlv_serveradministration_domain_Server_model" object="${server}" z="jz9atttEQLNGEEeoNYxEtOit1Jc="/>
+        <field:display field="ram" id="s_at_htlv_serveradministration_domain_Server_ram" object="${server}" z="fPulQVJAPWYhgOSwktkO/NItEGk="/>
+        <field:display field="cpufreq" id="s_at_htlv_serveradministration_domain_Server_cpufreq" object="${server}" z="gJVf9McuIJ8nxZBoKY4HI7178WQ="/>
+        <field:display field="cpucount" id="s_at_htlv_serveradministration_domain_Server_cpucount" object="${server}" z="KFzbUAXW/kFYytP+qaaCQOZ0lRg="/>
+        <field:display field="hdd" id="s_at_htlv_serveradministration_domain_Server_hdd" object="${server}" z="q9Ed96uELChTpAF5kJdxLN9hMwg="/>
+        <field:display field="comment" id="s_at_htlv_serveradministration_domain_Server_comment" object="${server}" z="wzj1VYZdKDiZa72sMHz+IezSieI="/>
+        <field:display field="rack" id="s_at_htlv_serveradministration_domain_Server_rack" object="${server}" z="PWTbsH9gKNm66HsHw+U2SmDbtpY="/>
+    </page:show>
+</div>

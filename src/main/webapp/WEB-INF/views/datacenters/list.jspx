@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_at_htlv_serveradministration_domain_Datacenter" items="${datacenters}" z="SPdjDQ9St+Ewg9aSbcdDxq9h7tQ=">
+        <table:table data="${datacenters}" id="l_at_htlv_serveradministration_domain_Datacenter" path="/datacenters" z="Z4ryzhVlBnXsItk2f67ANtFAMWc=">
+            <table:column id="c_at_htlv_serveradministration_domain_Datacenter_name" property="name" z="sQuj6c9/uxBYNFYXJgR0/woj97Y="/>
+            <table:column id="c_at_htlv_serveradministration_domain_Datacenter_address" property="address" z="bHe7PTaEX9crU1twkqDrddvnzf8="/>
+            <table:column id="c_at_htlv_serveradministration_domain_Datacenter_powerconnection" property="powerconnection" z="MnySwjtha3SjipxE6fLTQV1XitM="/>
+            <table:column id="c_at_htlv_serveradministration_domain_Datacenter_dataconnection" property="dataconnection" z="NFYoNiOS8iquG1h0pTzGMRZOBbA="/>
+            <table:column id="c_at_htlv_serveradministration_domain_Datacenter_postcode" property="postcode" z="USqRUgeWESh0lNIYbwvCbp1udMs="/>
+        </table:table>
+    </page:list>
+</div>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_at_htlv_serveradministration_domain_Server" modelAttribute="server" path="/servers" versionField="Version" z="8XdccNv2MCUfbJZeIgs8EyAxdL0=">
+        <field:input field="hostname" id="c_at_htlv_serveradministration_domain_Server_hostname" required="true" z="74yOojsROpx0gssxFO3t7BpHksg="/>
+        <field:select field="producer" id="c_at_htlv_serveradministration_domain_Server_producer" items="${producerservers}" path="producerservers" z="4bJR44g1gu7bGyahLXlKqkVO2qw="/>
+        <field:input field="serialnumber" id="c_at_htlv_serveradministration_domain_Server_serialnumber" z="L0DdAc+LFMa5riKe+t/OWyr8V3I="/>
+        <field:input field="model" id="c_at_htlv_serveradministration_domain_Server_model" required="true" z="Loq+l2PTbZVrM9PxC3mJr5GneZw="/>
+        <field:input field="ram" id="c_at_htlv_serveradministration_domain_Server_ram" max="262144" min="1024" required="true" validationMessageCode="field_invalid_integer" z="+7jcPSC0A2cOa4+hEF++P4CPuJQ="/>
+        <field:input field="cpufreq" id="c_at_htlv_serveradministration_domain_Server_cpufreq" max="6000" min="200" required="true" validationMessageCode="field_invalid_integer" z="9eqQYhM5XIGvhd4M1Y8AE9ADBWw="/>
+        <field:input field="cpucount" id="c_at_htlv_serveradministration_domain_Server_cpucount" max="200" min="1" required="true" validationMessageCode="field_invalid_integer" z="k5stG75xt2QLTQJXiQSxGnKNyjc="/>
+        <field:input field="hdd" id="c_at_htlv_serveradministration_domain_Server_hdd" min="32" required="true" validationMessageCode="field_invalid_integer" z="W71H8nob6U/yL/OMn7ep/CMpa5k="/>
+        <field:input field="comment" id="c_at_htlv_serveradministration_domain_Server_comment" z="dnm/Vxv1iGV08D75SePABFY1PH8="/>
+        <field:select field="rack" id="c_at_htlv_serveradministration_domain_Server_rack" itemValue="id" items="${racks}" path="/racks" z="IjWyz3ESf7u1qfdNv364B7rWtgA="/>
+    </form:update>
+</div>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_at_htlv_serveradministration_domain_Server" items="${servers}" z="0Ryc276MUPwbkd+E8DSWiWrhsnw=">
+        <table:table data="${servers}" id="l_at_htlv_serveradministration_domain_Server" path="/servers" z="kJYHEW3vxeG/wlJENxnQo+HgLcQ=">
+            <table:column id="c_at_htlv_serveradministration_domain_Server_hostname" property="hostname" z="6+Jq8/UHeIvuvipOZfEMBeosQkg="/>
+            <table:column id="c_at_htlv_serveradministration_domain_Server_producer" property="producer" z="efgWppQgaApILPQfkHsxgpHK+2I="/>
+            <table:column id="c_at_htlv_serveradministration_domain_Server_serialnumber" property="serialnumber" z="ZqiCtHdigtnAmjKiYYmrRjbaqf8="/>
+            <table:column id="c_at_htlv_serveradministration_domain_Server_model" property="model" z="ByESMxIfstmB12M+dgYziTVTrj8="/>
+            <table:column id="c_at_htlv_serveradministration_domain_Server_ram" property="ram" z="/0BoZEbqGTWrwcntdPN429iniQ0="/>
+            <table:column id="c_at_htlv_serveradministration_domain_Server_cpufreq" property="cpufreq" z="/h/BlRX+wvOjFYEHdhy2o7EocIg="/>
+        </table:table>
+    </page:list>
+</div>

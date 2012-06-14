@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_at_htlv_serveradministration_domain_Postcode" object="${postcode}" path="/postcodes" z="K1S5Uo2ZBN4YVc3suGciu+IRZpI=">
+        <field:display field="postcode" id="s_at_htlv_serveradministration_domain_Postcode_postcode" object="${postcode}" z="MT6zhxMBhziA9HPgFr2x3BB5F/U="/>
+        <field:display field="city" id="s_at_htlv_serveradministration_domain_Postcode_city" object="${postcode}" z="Gv/dYYVGqK7R66c8fdo1fryQObY="/>
+    </page:show>
+</div>

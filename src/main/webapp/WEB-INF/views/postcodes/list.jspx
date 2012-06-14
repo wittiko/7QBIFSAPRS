@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_at_htlv_serveradministration_domain_Postcode" items="${postcodes}" z="BsERAAmzCo6i8xH4aSaMk3sgfE4=">
+        <table:table data="${postcodes}" id="l_at_htlv_serveradministration_domain_Postcode" path="/postcodes" z="lcw29NCC9WKE8vA/qt5knaF0LU4=">
+            <table:column id="c_at_htlv_serveradministration_domain_Postcode_postcode" property="postcode" z="+4agNjw1LYD4LAHPvTRjXA6PrIU="/>
+            <table:column id="c_at_htlv_serveradministration_domain_Postcode_city" property="city" z="Is1gaDLrfDgj3VWqVlKIBB9ygi8="/>
+        </table:table>
+    </page:list>
+</div>

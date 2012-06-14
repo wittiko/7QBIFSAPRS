@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_at_htlv_serveradministration_domain_Rack" items="${racks}" z="EBt22e63ZOu3acj3AT/nmR9oPaA=">
+        <table:table data="${racks}" id="l_at_htlv_serveradministration_domain_Rack" path="/racks" z="nbdM+rPuJnusHCOIMjLrVJHYU9E=">
+            <table:column id="c_at_htlv_serveradministration_domain_Rack_identnr" property="identnr" z="3sPWoucoMoh4w2dMoU0h/SbP2TY="/>
+            <table:column id="c_at_htlv_serveradministration_domain_Rack_line" property="line" z="5XayDtpDzBLinlaFOKDPqTz1ZHc="/>
+            <table:column id="c_at_htlv_serveradministration_domain_Rack_location" property="location" z="6N8ly50WwG348VDuE6SEZQ3PJig="/>
+            <table:column id="c_at_htlv_serveradministration_domain_Rack_he" property="he" z="RWOwqhQS0YnvJzqeCq+DRp2ozrI="/>
+            <table:column id="c_at_htlv_serveradministration_domain_Rack_producer" property="producer" z="ZZ1SqKUsim2s0bePMVuNuphgnBc="/>
+        </table:table>
+    </page:list>
+</div>

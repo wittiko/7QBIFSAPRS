@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_at_htlv_serveradministration_domain_Rack" modelAttribute="rack" path="/racks" render="${empty dependencies}" z="npt7G3JVmqu4xxbDi9KpJrzzf5Q=">
+        <field:input field="identnr" id="c_at_htlv_serveradministration_domain_Rack_identnr" required="true" validationMessageCode="field_invalid_integer" z="cF00xfx2eKWGcuHAb4s4f4Z7AwU="/>
+        <field:input field="line" id="c_at_htlv_serveradministration_domain_Rack_line" min="1" required="true" validationMessageCode="field_invalid_integer" z="WhNnQ8FVsfVzDz5dtSaJxL0AOpA="/>
+        <field:input field="location" id="c_at_htlv_serveradministration_domain_Rack_location" min="1" required="true" validationMessageCode="field_invalid_integer" z="EHHJ1DCAwMipuGyWIuNRlKvBtHM="/>
+        <field:input field="he" id="c_at_htlv_serveradministration_domain_Rack_he" min="24" required="true" validationMessageCode="field_invalid_integer" z="lqtidHyVnXHyxbk27qtEagIRwCM="/>
+        <field:select field="producer" id="c_at_htlv_serveradministration_domain_Rack_producer" items="${producerracks}" path="producerracks" z="mnMX4RHu0hf3Pk3AD2DMEJFWnHQ="/>
+        <field:simple field="servers" id="c_at_htlv_serveradministration_domain_Rack_servers" messageCode="entity_reference_not_managed" messageCodeAttribute="Server" z="5KmshfZtloE63C4RmmbTlfgnfWM="/>
+        <field:select field="datacenter" id="c_at_htlv_serveradministration_domain_Rack_datacenter" itemValue="id" items="${datacenters}" path="/datacenters" z="6pNIbJ6e4S/Yp28AFhIEEek38fk="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_at_htlv_serveradministration_domain_Rack" render="${not empty dependencies}" z="WjVv+Tdwz7V2CsnZwmR75ouYgGs="/>
+</div>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_at_htlv_serveradministration_domain_Datacenter" object="${datacenter}" path="/datacenters" z="uBnneriXZstH6LnBGf0Ki7TgD+0=">
+        <field:display field="name" id="s_at_htlv_serveradministration_domain_Datacenter_name" object="${datacenter}" z="7YBxW9gK05IElf/8WmIM+T4kBGc="/>
+        <field:display field="address" id="s_at_htlv_serveradministration_domain_Datacenter_address" object="${datacenter}" z="j3B45vjT1iWFELRclJDpQysrNAs="/>
+        <field:display field="powerconnection" id="s_at_htlv_serveradministration_domain_Datacenter_powerconnection" object="${datacenter}" z="X+PIXBrOQPVOrETu6NZq6P0KNHI="/>
+        <field:display field="dataconnection" id="s_at_htlv_serveradministration_domain_Datacenter_dataconnection" object="${datacenter}" z="skEYixPQzsAi2Tk+gNGxvp+Dk/0="/>
+        <field:display field="postcode" id="s_at_htlv_serveradministration_domain_Datacenter_postcode" object="${datacenter}" z="S60nTY6ZzyOBFbB8Hgl0h3Mh0fg="/>
+    </page:show>
+</div>
